@@ -4,7 +4,6 @@ import Main from "./components/Main.js";
 import ThemeSelector from "./components/ThemeSelector.js";
 
 const Index = () => {
-  // Estado para controlar la visibilidad del menú en dispositivos móviles
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showHeader, setShowHeader] = useState(true);
 
@@ -12,18 +11,12 @@ const Index = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Detectar el tamaño de la pantalla
   useEffect(() => {
     const handleResize = () => {
-      // Eliminar el nodo Header si la ventana es menor a 768px
-      setShowHeader(window.innerWidth >= 768);
+      setShowHeader(window.innerWidth >= 1024);
     };
-
-    // Agregar evento de resize
     handleResize(); // Ejecutar una vez al montar el componente
     window.addEventListener("resize", handleResize);
-
-    // Limpieza
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -31,32 +24,36 @@ const Index = () => {
 
   return (
     <div className="flex min-h-screen w-full">
-      {/* Header */}
-      {showHeader && (
+      {/* Mostrar el menú en dispositivos móviles solo si isMenuOpen es true */}
+      {isMenuOpen ? (
         <div
-          className={`fixed top-0 left-0 z-20 bg-gray-200 dark:bg-stone-950 w-64 transition-transform transform ${
-            isMenuOpen ? "translate-x-0" : "-translate-x-full"
-          } lg:translate-x-0 lg:static`}
-        >
-          <Header />
-        </div>
-      )}
+        className={`fixed top-0 left-0 z-20 bg-gray-200 dark:bg-stone-950 w-64 h-full transform ${
+          isMenuOpen
+            ? "translate-x-0 transition-transform duration-300 ease-in-out"
+            : "-translate-x-full transition-transform duration-300 ease-in-out"
+        } lg:translate-x-0 lg:static lg:w-64`}
+      >
+        <Header />
+      </div>
+      
+      
+      ) : null}
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col relative">
-        {/* Toggle Button for Mobile */}
-        <div className="lg:hidden p-4 fixed top-4 right-10 z-30 bg-black dark:bg-white rounded">
+        {/* Botón de alternancia para móviles */}
+        <div className="lg:hidden p-4 fixed top-4 right-4 z-30 bg-black dark:bg-white rounded">
           <button onClick={toggleMenu} className="bg-black dark:bg-white">
             <i className={`dark:text-black text-white fas ${isMenuOpen ? "fa-times" : "fa-bars"}`}></i>
           </button>
         </div>
 
-        {/* Main Section */}
+        {/* Sección principal */}
         <main className="flex-1 flex flex-col items-center justify-center lg:justify-start lg:items-start min-h-screen">
           <Main />
         </main>
 
-        {/* Theme Selector */}
+        {/* Selector de tema */}
         <div className="absolute bottom-4 right-4">
           <ThemeSelector />
         </div>

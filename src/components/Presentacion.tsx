@@ -26,7 +26,7 @@ const Presentacion = () => {
             gusta hacer sitios web modernos.
           </p>
           <div className="my-8 lg:my-20">
-            <Button text={'Mis proyectos'} />
+            <Button text={'Mis proyectos'} route={"portfolio"} />
           </div>
         </div>
       </div>

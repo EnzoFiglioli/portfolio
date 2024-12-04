@@ -4,3 +4,7 @@
   font-weight: 300;
   font-style: normal;
 }
+
+.transition-transform {
+  transition: transform 300ms ease-in-out;
+}

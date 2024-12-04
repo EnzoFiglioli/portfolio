@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const Contactame = () => {
   return (
-    <main className="Contacto-container min-h-screen px-4 lg:px-8 py-8">
+    <main className="Contacto-container min-h-screen px-4 lg:px-8 py-8" id="contact">
       <Title title={'Contacto'} />
       <section className="Contacto flex flex-col lg:flex-row gap-8 lg:gap-16">
         {/* Información de contacto */}
@@ -28,7 +28,7 @@ const Contactame = () => {
             <input type="text" placeholder="Asunto*" className="border p-2 rounded text-black" required />
             <textarea placeholder="Tu mensaje*" className="border p-2 rounded text-black" required></textarea>
             <section className="mt-4">
-              <Button text={'Message'} />
+              <Button text={'Message'} route="" />
             </section>
           </form>
         </div>

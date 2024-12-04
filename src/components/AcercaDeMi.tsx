@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const AcercaDeMi = () => {
   return (
-    <section className="max-w-7xl mx-auto py-12 px-6 lg:flex lg:items-center lg:justify-between min-h-screen">
+    <section className="max-w-7xl mx-auto py-12 px-6 lg:flex lg:items-center lg:justify-between min-h-screen" id="about-me">
       {/* Contenedor de la sección */}
       <div className="lg:flex lg:space-x-8">
         <div className="absolute top-10 right-4 w-8 h-8 bg-yellow-600 rounded-full"></div>
@@ -30,7 +30,7 @@ const AcercaDeMi = () => {
 
           {/* Botón */}
           <div className="mt-8">
-            <Button text="Contactame" />
+            <Button text="Contactame" route="#contact" />
           </div>
         </div>
       </div>

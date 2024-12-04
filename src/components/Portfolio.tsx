@@ -24,7 +24,7 @@ const Portfolio = () => {
   }, []); // Ejecutar solo al montar el componente
 
   return (
-    <main className="secciones p-8 min-h-screen">
+    <main className="secciones p-8 min-h-screen" id="portfolio">
       {/* Título */}
       <div className="mb-6">
         <Title title={"Mi Portfolio"} />

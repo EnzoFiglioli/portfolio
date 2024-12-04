@@ -14,7 +14,7 @@ const Servicios = () => {
   }, []);
 
   return (
-    <main className="secciones Servicio p-8 text-white min-h-screen">
+    <main id="services" className="secciones Servicio p-8 text-white min-h-screen">
       {/* Título */}
       <Title title={'¿Que es lo que hago?'} />
 

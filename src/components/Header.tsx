@@ -15,10 +15,10 @@ const Header = () => {
           {/* Menú de navegación */}
           <ul className="flex flex-col m-auto p-4 space-y-4 items-start">
               <li><i className="fa-solid fa-house dark:text-white text-black"></i><a href="#" className="px-2 dark:text-white text-black font-medium">Home</a></li>
-              <li><i className="fa-regular fa-id-card dark:text-white text-black"></i><a href="#" className="px-2 dark:text-white text-black font-medium">Acerca de mi</a></li>
-              <li><i className="fa-solid fa-sliders dark:text-white text-black"></i><a href="#" className="px-2 dark:text-white text-black font-medium">Servicios</a></li>
-              <li><i className="fa-solid fa-book-bookmark dark:text-white text-black"></i><a href="#" className="px-2 dark:text-white text-black font-medium">Portfolio</a></li>
-              <li><i className="fa-regular fa-map dark:text-white text-black"></i><a href="#" className="px-2 dark:text-white text-black font-medium">Contactame</a></li>
+              <li><i className="fa-regular fa-id-card dark:text-white text-black"></i><a href="#about-me" className="px-2 dark:text-white text-black font-medium">Acerca de mi</a></li>
+              <li><i className="fa-solid fa-sliders dark:text-white text-black"></i><a href="#services" className="px-2 dark:text-white text-black font-medium">Servicios</a></li>
+              <li><i className="fa-solid fa-book-bookmark dark:text-white text-black"></i><a href="#portfolio" className="px-2 dark:text-white text-black font-medium">Portfolio</a></li>
+              <li><i className="fa-regular fa-map dark:text-white text-black"></i><a href="#contact" className="px-2 dark:text-white text-black font-medium">Contactame</a></li>
           </ul>
 
           {/* Iconos de redes sociales */}

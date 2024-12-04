@@ -1,13 +1,14 @@
 type typeButton = {
-   text: string
+   text: string,
+   route: string
   };
 
-const Button = ({ text }: typeButton) => {
+const Button = ({ text, route }: typeButton) => {
   return (
     <div className=" inline-block">
       {/* Rectángulo amarillo */}
       <a
-        href="#"
+        href={`#${route}`}
         className="dark:bg-yellow-400 bg-black dark:text-black text-white px-8 py-4 rounded z-10"
       >
         {text}
