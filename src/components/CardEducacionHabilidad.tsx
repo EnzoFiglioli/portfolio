@@ -1,4 +1,10 @@
-const CardEducacionHabilidad = ({ año, titulo, institucion }) => {
+type SkillEducProps = {
+  año: string,
+  titulo: string,
+  institucion: string
+}
+
+const CardEducacionHabilidad = ({ año, titulo, institucion }: SkillEducProps) => {
     return (
       <li className="p-5">
         <section className="dark:bg-stone-950 bg-gray-50 lg:py-0 rounded-lg h-40">

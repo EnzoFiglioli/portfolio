@@ -1,4 +1,8 @@
-const Button = ({ text }) => {
+type typeButton = {
+   text: string
+  };
+
+const Button = ({ text }: typeButton) => {
   return (
     <div className=" inline-block">
       {/* Rectángulo amarillo */}

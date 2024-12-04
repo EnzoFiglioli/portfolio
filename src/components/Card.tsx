@@ -1,4 +1,10 @@
-const Card = ({title,p,ico}) => {
+type CardProps = {
+  title: string,
+  p: string,
+  ico: string
+}
+
+const Card = ({title,p,ico}: CardProps) => {
   return (
     <div >
       <section>
