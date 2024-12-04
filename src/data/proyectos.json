@@ -1,0 +1,17 @@
+[
+    {
+        "title":"TolitoShop",
+        "link":"https://tolito-shop.vercel.app/",
+        "portada":"../public/Proyectos/Tolito.png"
+    },
+    {
+        "title":"ReviewFlix",
+        "link":"",
+        "portada":"../public/Proyectos/ReviewFlix.png"
+    },
+    {
+        "title":"Lovelink",
+        "link":"",
+        "portada":"../public/Proyectos/LoveLink.png"
+    }
+]

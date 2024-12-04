@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Desarrollo Web",
+        "p": "Desarrollo de sitios web interactivos y escalables con tecnologías como MERN (MongoDB, Express, React, Node.js).",
+        "ico": "fa-solid fa-desktop"
+    },
+    {
+        "title": "Diseño Web",
+        "p": "Creación de diseños web responsivos y fáciles de usar, enfocados en la estética y la usabilidad.",
+        "ico": "fa-regular fa-pen-to-square"
+    },
+    {
+        "title": "Desarrollo de Aplicaciones Móviles",
+        "p": "Desarrollo de apps móviles para iOS y Android con tecnologías como React Native y Flutter.",
+        "ico": "fa-solid fa-mobile"
+    },
+    {
+        "title": "Pruebas y Testing de Software",
+        "p": "Aseguramos la calidad del software con pruebas funcionales, de regresión e integración, manuales y automatizadas.",
+        "ico": "fa-solid fa-vial"
+    }
+]
