@@ -15,7 +15,7 @@ const Index = () => {
     const handleResize = () => {
       setShowHeader(window.innerWidth >= 1024);
     };
-    handleResize(); // Ejecutar una vez al montar el componente
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -25,18 +25,16 @@ const Index = () => {
   return (
     <div className="flex min-h-screen w-full">
       {/* Mostrar el menú en dispositivos móviles solo si isMenuOpen es true */}
-      {isMenuOpen ? (
+      {isMenuOpen || showHeader ? (
         <div
-        className={`fixed top-0 left-0 z-20 bg-gray-200 dark:bg-stone-950 w-64 h-full transform ${
-          isMenuOpen
-            ? "translate-x-0 transition-transform duration-300 ease-in-out"
-            : "-translate-x-full transition-transform duration-300 ease-in-out"
-        } lg:translate-x-0 lg:static lg:w-64`}
-      >
-        <Header />
-      </div>
-      
-      
+          className={`top-0 left-0 z-20 bg-gray-200 dark:bg-stone-950 w-64 max-h-screen fixed transform ${
+            isMenuOpen
+              ? "translate-x-0 transition-transform duration-300 ease-in-out"
+              : "-translate-x-full transition-transform duration-300 ease-in-out"
+          } lg:translate-x-0 lg:fixed lg:w-64`}
+        >
+          <Header />
+        </div>
       ) : null}
 
       {/* Main Content */}
@@ -48,8 +46,7 @@ const Index = () => {
           </button>
         </div>
 
-        {/* Sección principal */}
-        <main className="flex-1 flex flex-col items-center justify-center lg:justify-start lg:items-start min-h-screen">
+        <main className="flex-1 flex flex-col items-center justify-center lg:justify-start lg:items-start min-h-screen lg:ml-64">
           <Main />
         </main>
 
