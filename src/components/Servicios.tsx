@@ -20,15 +20,15 @@ const Servicios = () => {
   }, []);
 
   return (
-    <main className="secciones Servicio p-8 text-white">
+    <main className="secciones Servicio p-8 text-white min-h-screen">
       {/* Título */}
-      <Title title={'What Do I Do?'} />
+      <Title title={'¿Que es lo que hago?'} />
 
       {/* Contenedor de servicios */}
       <div className="service-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
         {cards.map((c, index) => (
           <div
-            className="card dark:bg-stone-950 bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg hover:bg-gray-700 transition-all"
+            className="card dark:bg-stone-950 bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg dark:hover:bg-yellow-500 dark:hover:text-black hover:bg-yellow-500 transition-all h-50"
             key={index}
           >
             {/* Ícono */}

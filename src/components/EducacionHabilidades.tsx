@@ -5,7 +5,7 @@ const EducacionHabilidades = () => {
   return (
     <main className="pr-4 min-h-screen">
       <Title title={"Educación y Habilidades"} />
-      <div className="flex flex-col md:flex-row md:justify-center gap-20">
+      <div className="flex flex-col lg:flex-row lg:justify-center gap-20">
         {/* Sección de Educación */}
         <section>
           <ul className="space-y-3">

@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const AcercaDeMi = () => {
   return (
-    <section className="max-w-7xl mx-auto py-12 px-6 lg:flex lg:items-center lg:justify-between min-h-full">
+    <section className="max-w-7xl mx-auto py-12 px-6 lg:flex lg:items-center lg:justify-between min-h-screen">
       {/* Contenedor de la sección */}
       <div className="lg:flex lg:space-x-8">
         <div className="absolute top-10 right-4 w-8 h-8 bg-yellow-600 rounded-full"></div>
@@ -10,7 +10,7 @@ const AcercaDeMi = () => {
         <div className="absolute top-50 left-10 w-6 h-6 bg-yellow-700 rounded-full"></div>
         <div className="relative flex-none">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStZH0zc-_hUhaXUHbTG8ytYHeiK7tGfHaWyw&s"
+            src="https://s0.smartresize.com/wallpaper/789/997/HD-wallpaper-code-programming-text-technology.jpg"
             alt="profile"
             className="w-60 h-60 rounded-xl object-cover shadow-lg"
           />
@@ -30,7 +30,7 @@ const AcercaDeMi = () => {
 
           {/* Botón */}
           <div className="mt-8">
-            <Button text="Contact Me" />
+            <Button text="Contactame" />
           </div>
         </div>
       </div>

@@ -7,15 +7,17 @@ import Contactame from './Contactame.js';
 
 const Main = () => {
     return (
-        <div className="absolute w-9/12 h-full min-h-screen overflow-auto right-0">
-            <Presentacion />
-            <AcercaDeMI />          
-            <EducacionHabilidades />
-            <Portfolio />
-            <Servicios />
-            <Contactame />
+        <div className="flex-1 px-5 lg:px-0">
+            <div className="flex flex-col justify-start lg:items-center lg:justify-center">
+                <Presentacion />
+                <AcercaDeMI />
+                <EducacionHabilidades />
+                <Portfolio />
+                <Servicios />
+                <Contactame />
+            </div>
         </div>
-    )
+    );
 }
 
 export default Main;
