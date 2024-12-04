@@ -31,16 +31,16 @@ const EducacionHabilidades = () => {
         <section>
           <h3 className="text-xl font-bold mb-4">Mis Habilidades</h3>
           <ul className="grid grid-cols-3 gap-4 text-center">
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">HTML</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">CSS</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">Javascript</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black" >Python</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">React</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">NodeJS</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">Express</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">MongoDB</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">MySQL</li>
-            <li className="bg-white p-2 rounded shadow-md dark:text-black">Django</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">HTML</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">CSS</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">Javascript</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black" >Python</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">React</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">NodeJS</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">Express</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">MongoDB</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">MySQL</li>
+            <li className="bg-yellow-400 dark:bg-white p-2 rounded shadow-md dark:text-black">Django</li>
           </ul>
         </section>
       </div>

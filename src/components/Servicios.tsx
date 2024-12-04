@@ -26,7 +26,7 @@ const Servicios = () => {
             key={index}
           >
             {/* Ícono */}
-            <div className="text-black dark:text-white mb-4 text-purple-400">
+            <div className=" dark:text-white mb-4 text-gray-400">
               <i className={c.ico}></i>
             </div>
             {/* Título */}
