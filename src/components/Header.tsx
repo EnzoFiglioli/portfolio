@@ -5,7 +5,7 @@ const Header = () => {
         <div className="flex justify-center align-items-center mb-6">
           <span className="rounded-full h-16 w-16 border-white border-solid border-2">
             <img 
-              src="./WhatsApp Image 2020-05-16 at 03.37.28.jpeg" 
+              src="./icono.png" 
               alt="yo" 
               className="rounded-full h-16 w-16"
             />
