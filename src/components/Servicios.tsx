@@ -2,13 +2,7 @@ import Title from "./Title";
 import { useEffect, useState } from "react";
 import { handlerServices } from '../handler/manejadorServicios';
 import servicios from '../data/servicios.json';
-
-// Definir la interfaz para el tipo de datos de cada servicio
-interface Service {
-  title: string;
-  p: string;
-  ico: string; // Puedes cambiar el tipo si el ícono es algo más complejo
-}
+import { Service } from "../models/Service";
 
 const Servicios = () => {
   const [cards, setCards] = useState<Service[]>([]);

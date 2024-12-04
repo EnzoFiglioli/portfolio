@@ -1,4 +1,8 @@
-const Title = ({ title }) => {
+type TitleProps = {
+  title: string
+}
+
+const Title = ({ title }: TitleProps) => {
   return (
     <div className="text-center mb-8">
       {/* Título */}
