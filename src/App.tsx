@@ -45,7 +45,7 @@ const Index = () => {
       {/* Main Content */}
       <div className="flex-1 flex flex-col relative">
         {/* Toggle Button for Mobile */}
-        <div className="lg:hidden p-4 fixed top-4 right-4 z-30">
+        <div className="lg:hidden p-4 fixed top-4 right-10 z-30 bg-black rounded">
           <button onClick={toggleMenu} className="text-black dark:text-white">
             <i className={`fas ${isMenuOpen ? "fa-times" : "fa-bars"}`}></i>
           </button>
