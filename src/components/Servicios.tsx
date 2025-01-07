@@ -1,5 +1,5 @@
-import Title from "./Title";
 import { useEffect, useState } from "react";
+import Title from "./Title";
 import { handlerServices } from '../handler/manejadorServicios';
 import servicios from '../data/servicios.json';
 import { Service } from "../models/Service";

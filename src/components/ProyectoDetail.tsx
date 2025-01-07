@@ -17,13 +17,13 @@ const ProyectoDetail: React.FC<ProyectoDetailProps> = ({ proyecto }) => {
       {/* Imagen del proyecto */}
       <img
         src={proyecto.portada}
-        alt={proyecto.titulo}
+        alt={proyecto.title}
         className="w-full h-48 object-cover"
       />
 
       {/* Información del proyecto */}
       <div className="p-4">
-        <h3 className="text-lg font-bold text-gray-800">{proyecto.titulo}</h3>
+        <h3 className="text-lg font-bold text-gray-800">{proyecto.title}</h3>
         <a
           href={proyecto.link}
           target="_blank"

@@ -1,17 +1,30 @@
 [
     {
+        "id":1,
         "title":"TolitoShop",
         "link":"https://tolito-shop.vercel.app/",
+        "descripcion":"Nodejs, React, Express, Sequelize, JWT",
         "portada":"../public/Proyectos/Tolito.png"
     },
     {
+        "id":2,
         "title":"ReviewFlix",
         "link":"",
+        "descripcion":"Python, Django, SQLite3, Bootstrap",
         "portada":"../public/Proyectos/ReviewFlix.png"
     },
     {
+        "id":3,
         "title":"Lovelink",
         "link":"",
+        "descripcion":"",
         "portada":"../public/Proyectos/LoveLink.png"
+    },
+    {
+        "id":4,
+        "title":"TodoListo",
+        "link":"https://todo-listo-omega.vercel.app/",
+        "descripcion":"Node.js,Express,EJS, MongoDB, Tailwind",
+        "portada":"../public/Proyectos/TodoListo.png"
     }
 ]

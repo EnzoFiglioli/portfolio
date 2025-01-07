@@ -8,8 +8,8 @@ const Contactame = () => {
       <section className="Contacto flex flex-col lg:flex-row gap-8 lg:gap-16">
         {/* Información de contacto */}
         <div className="flex flex-col items-start bg-gray-100 dark:bg-stone-950 p-6 rounded-lg shadow-md">
-          <h3 className="text-2xl font-semibold mb-4 ">What’s your story? Get in touch</h3>
-          <p className="mb-4">Always available for freelancing or full-time jobs if the right project comes along. Feel free to contact me.</p>
+          <h3 className="text-2xl font-semibold mb-4 ">Que me contas?</h3>
+          <p className="mb-4">Esto dispuesto a trabajar tanto de manera freelance como tambien en equipo. Espero tu mensaje 😁👍</p>
           <ul className="space-y-2">
             <li className="flex items-center"><i className="fa-regular fa-map mr-2"></i> Olavarria, Argentina</li>
             <li className="flex items-center"><i className="fa-regular fa-envelope mr-2"></i> enzofiglioli.p@gmail.com</li>

@@ -2,7 +2,7 @@ const Header = () => {
     return (
       <header className="top-0 left-0 w-64 h-screen bg-gray-200 dark:bg-stone-950 flex flex-col justify-between py-4 z-20">
         {/* Imagen de perfil */}
-        <div className="flex justify-center align-items-center mb-6">
+        <div className="flex justify-center align-center mb-6">
           <span className="rounded-full h-16 w-16 border-white border-solid border-2">
             <img 
               src="./icono.png" 
@@ -23,8 +23,8 @@ const Header = () => {
   
         {/* Iconos de redes sociales */}
         <div className="flex justify-center space-x-6 mt-6">
-          <i className="fa-brands fa-github text-black dark:text-white"></i>
-          <i className="fa-brands fa-linkedin text-black dark:text-white"></i>
+          <a href="https://www.linkedin.com/in/enzo-figlioli/" target="_blank"><i className="fa-brands fa-github text-black dark:text-white"></i></a>
+          <a href="https://github.com/EnzoFiglioli" target="_blank"><i className="fa-brands fa-linkedin text-black dark:text-white"></i></a>
         </div>
       </header>
     );
