@@ -3,8 +3,9 @@ import React from "react";
 // Tipado de las props
 type Proyecto = {
   portada: string;
-  titulo: string;
+  title: string;
   link: string;
+  descripcion:string;
 };
 
 type ProyectoDetailProps = {
@@ -24,6 +25,7 @@ const ProyectoDetail: React.FC<ProyectoDetailProps> = ({ proyecto }) => {
       {/* Información del proyecto */}
       <div className="p-4">
         <h3 className="text-lg font-bold text-gray-800">{proyecto.title}</h3>
+        <p>{proyecto.descripcion}</p>
         <a
           href={proyecto.link}
           target="_blank"

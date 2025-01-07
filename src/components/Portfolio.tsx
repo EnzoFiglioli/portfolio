@@ -7,7 +7,7 @@ import ProyectoDetail from "./ProyectoDetail.js";
 // Tipo para cada proyecto
 type Proyecto = {
   id: number;
-  titulo: string;
+  title: string;
   descripcion: string;
   link: string;
   portada: string;
