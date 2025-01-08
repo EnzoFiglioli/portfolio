@@ -25,7 +25,7 @@ const ProyectoDetail: React.FC<ProyectoDetailProps> = ({ proyecto }) => {
       {/* Información del proyecto */}
       <div className="p-4">
         <h3 className="text-lg font-bold text-gray-800">{proyecto.title}</h3>
-        <p>{proyecto.descripcion}</p>
+        <p className="text-black">{proyecto.descripcion}</p>
         <a
           href={proyecto.link}
           target="_blank"
