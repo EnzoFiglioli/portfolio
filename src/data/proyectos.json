@@ -26,5 +26,12 @@
         "link":"https://todo-listo-omega.vercel.app/",
         "descripcion":"Node.js,Express,EJS, MongoDB, Tailwind",
         "portada":"../public/Proyectos/TodoListo.png"
+    },
+    {
+        "id":5,
+        "title":"Tabl3ro",
+        "link":"https://tabl3ro.vercel.app/",
+        "descripcion":"Node.js,Express,SQLite3, Tailwind",
+        "portada":"../public/Proyectos/Tabl3ro.png"
     }
 ]
