@@ -23,8 +23,8 @@ const Header = () => {
   
         {/* Iconos de redes sociales */}
         <div className="flex justify-center space-x-6 mt-6">
-          <a href="https://www.linkedin.com/in/enzo-figlioli/" target="_blank"><i className="fa-brands fa-github text-black dark:text-white"></i></a>
-          <a href="https://github.com/EnzoFiglioli" target="_blank"><i className="fa-brands fa-linkedin text-black dark:text-white"></i></a>
+          <a href="https://www.linkedin.com/in/enzo-figlioli/" target="_blank"><i className="fa-brands fa-linkedin text-black dark:text-white"></i></a>
+          <a href="https://github.com/EnzoFiglioli" target="_blank"><i className="fa-brands fa-github text-black dark:text-white"></i></a>
         </div>
       </header>
     );
