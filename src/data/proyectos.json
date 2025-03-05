@@ -1,37 +1,23 @@
 [
     {
         "id":1,
-        "title":"TolitoShop",
-        "link":"https://tolito-shop.vercel.app/",
-        "descripcion":"Nodejs, React, Express, Sequelize, JWT",
-        "portada":"https://i.ibb.co/pRhyMxf/Tolito.png"
+        "title":"Tabl3ro",
+        "link":"https://tabl3ro.vercel.app/",
+        "descripcion":"Node.js, Express, MySQL, Sequelize, Tailwind",
+        "portada":"https://i.imgur.com/cylolNr.png"
     },
     {
         "id":2,
         "title":"ReviewFlix",
-        "link":"",
+        "link":"https://enzofiglioli.pythonanywhere.com",
         "descripcion":"Python, Django, SQLite3, Bootstrap",
         "portada":"https://i.ibb.co/2nRx0KP/Review-Flix.png"
     },
     {
         "id":3,
-        "title":"Lovelink",
-        "link":"",
-        "descripcion":"",
-        "portada":"https://i.ibb.co/VQFRt5P/LoveLink.png"
-    },
-    {
-        "id":4,
         "title":"TodoListo",
         "link":"https://todo-listo-omega.vercel.app/",
-        "descripcion":"Node.js,Express,EJS, MongoDB, Tailwind",
+        "descripcion":"HTML,Tailwind,JavaScript, Node.js, Express, MongoDB",
         "portada":"https://i.ibb.co/3kYkmqN/Todo-Listo.png"
-    },
-    {
-        "id":5,
-        "title":"Tabl3ro",
-        "link":"https://tabl3ro.vercel.app/",
-        "descripcion":"Node.js,Express,SQLite3, Tailwind",
-        "portada":"https://i.ibb.co/pRJLVNw/Tabl3ro.png"
     }
 ]
