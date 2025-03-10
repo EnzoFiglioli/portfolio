@@ -1,0 +1,13 @@
+[
+    {"id":"1","nombre":"HTML", "imagen":"./img/html.webp"},
+    {"id":"2","nombre":"CSS", "imagen":"./img/css.png"},
+    {"id":"3","nombre":"JavaScript", "imagen":"./img/js.png"},
+    {"id":"9","nombre":"Typescript", "imagen":"./img/typescript.png"},
+    {"id":"4","nombre":"React", "imagen":"./img/react.png"},
+    {"id":"5","nombre":"Node", "imagen":"./img/node.png"},
+    {"id":"6","nombre":"Express", "imagen":"./img/express.png"},
+    {"id":"7","nombre":"MongoDB", "imagen":"./img/mongodb.png"},
+    {"id":"8","nombre":"MySQL", "imagen":"./img/mysql.png"},
+    {"id":"11","nombre":"Python", "imagen":"./img/python.png"},
+    {"id":"12","nombre":"Django", "imagen":"./img/django.png"}
+]

@@ -5,7 +5,7 @@ type Proyecto = {
   portada: string;
   title: string;
   link: string;
-  descripcion:string;
+  descripcion: string;
 };
 
 type ProyectoDetailProps = {
@@ -14,28 +14,22 @@ type ProyectoDetailProps = {
 
 const ProyectoDetail: React.FC<ProyectoDetailProps> = ({ proyecto }) => {
   return (
-    <div className="proyecto-detail-container bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      {/* Imagen del proyecto */}
+    <a 
+      href={proyecto.link} 
+      className="proyecto-detail-container bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group relative"
+      target="_blank"
+    >
       <img
         src={proyecto.portada}
         alt={proyecto.title}
         className="w-full h-48 object-cover"
       />
 
-      {/* Información del proyecto */}
-      <div className="p-4">
-        <h3 className="text-lg font-bold text-gray-800">{proyecto.title}</h3>
-        <p className="text-black">{proyecto.descripcion}</p>
-        <a
-          href={proyecto.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-700 underline mt-2 block"
-        >
-          Ver Proyecto
-        </a>
+      <div className="absolute inset-0 bg-black bg-opacity-80 text-white flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <h3 className="text-lg font-bold">{proyecto.title}</h3>
+        <p className="text-sm mt-2">{proyecto.descripcion}</p>
       </div>
-    </div>
+    </a>
   );
 };
 
