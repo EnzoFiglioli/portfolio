@@ -9,7 +9,7 @@
     {
         "id":2,
         "title":"ReviewFlix",
-        "link":"https://enzofiglioli.pythonanywhere.com",
+        "link":"https://reviewflix2.onrender.com/",
         "descripcion":"Python, Django, SQLite3, Bootstrap",
         "portada":"https://i.ibb.co/2nRx0KP/Review-Flix.png"
     },
