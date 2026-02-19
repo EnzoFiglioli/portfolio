@@ -27,7 +27,7 @@ const ProyectoDetail: React.FC<ProyectoDetailProps> = ({ proyecto }) => {
 
       <div className="absolute inset-0 bg-black bg-opacity-80 text-white flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <h3 className="text-lg font-bold">{proyecto.title}</h3>
-        <p className="text-sm mt-2">{proyecto.descripcion}</p>
+        <p className="text-sm mt-2">{proyecto.description}</p>
       </div>
     </a>
   );
