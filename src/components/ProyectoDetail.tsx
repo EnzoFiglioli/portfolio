@@ -5,7 +5,7 @@ type Proyecto = {
   portada: string;
   title: string;
   link: string;
-  descripcion: string;
+  banner: string;
 };
 
 type ProyectoDetailProps = {
@@ -20,7 +20,7 @@ const ProyectoDetail: React.FC<ProyectoDetailProps> = ({ proyecto }) => {
       target="_blank"
     >
       <img
-        src={proyecto.portada}
+        src={proyecto.banner}
         alt={proyecto.title}
         className="w-full h-48 object-cover"
       />
