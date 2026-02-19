@@ -19,5 +19,12 @@
         "link":"https://todo-listo-ya.onrender.com/",
         "descripcion":"HTML,Tailwind,JavaScript, Node.js, Express, MongoDB",
         "portada":"https://i.ibb.co/3kYkmqN/Todo-Listo.png"
+    },
+    {
+        "id":4,
+        "title":"Fragancias LP",
+        "link":"https://fraganciaslp.vercel.app/",
+        "description":"React, Redux, React-Query, Nest, Prisma, PostgreSQL",
+        "portada":"https://i.imgur.com/itAhEH8.png"
     }
 ]
