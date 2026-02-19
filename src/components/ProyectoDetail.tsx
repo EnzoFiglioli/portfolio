@@ -2,10 +2,10 @@ import React from "react";
 
 // Tipado de las props
 type Proyecto = {
-  portada: string;
+  banner: string;
   title: string;
   link: string;
-  banner: string;
+  description: string;
 };
 
 type ProyectoDetailProps = {
