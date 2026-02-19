@@ -4,34 +4,34 @@
     "title": "Tabl3ro",
     "link": "https://tabl3ro.vercel.app/",
     "description": "Node.js, Express, MySQL, Sequelize, Tailwind",
-    "portada": "https://i.imgur.com/cylolNr.png"
+    "banner": "https://i.imgur.com/cylolNr.png"
   },
   {
     "id": 2,
     "title": "ReviewFlix",
     "link": "https://reviewflix2.onrender.com/",
     "description": "Python, Django, SQLite3, Bootstrap",
-    "portada": "https://i.ibb.co/2nRx0KP/Review-Flix.png"
+    "banner": "https://i.ibb.co/2nRx0KP/Review-Flix.png"
   },
   {
     "id": 3,
     "title": "TodoListo",
     "link": "https://todo-listo-ya.onrender.com/",
     "description": "HTML, Tailwind, JavaScript, Node.js, Express, MongoDB",
-    "portada": "https://i.ibb.co/3kYkmqN/Todo-Listo.png"
+    "banner": "https://i.ibb.co/3kYkmqN/Todo-Listo.png"
   },
   {
     "id": 4,
     "title": "Fragancias LP",
     "link": "https://fraganciaslp.vercel.app/",
     "description": "React, Redux, React Query, Nest.js, Prisma, PostgreSQL",
-    "portada": "https://i.imgur.com/itAhEH8.png"
+    "banner": "https://i.imgur.com/itAhEH8.png"
   },
   {
     "id": 5,
     "title": "EFX Studio",
     "link": "https://efx-studio.vercel.app/",
     "description": "Next.js, TypeScript",
-    "portada": "https://i.imgur.com/uaMRypv.png"
+    "banner": "https://i.imgur.com/uaMRypv.png"
   }
 ]
