@@ -1,9 +1,9 @@
 type Proyecto = {
   id: number;
   title: string;
-  descripcion: string;
+  description: string;
   link: string;
-  portada: string;
+  banner: string;
 };
 
 export const handlerProyectos = async (data: Proyecto[]): Promise<Proyecto[]> => {
@@ -16,9 +16,9 @@ export const handlerProyectos = async (data: Proyecto[]): Promise<Proyecto[]> =>
       if (
         typeof item.id === "number" &&
         typeof item.title === "string" &&
-        typeof item.descripcion === "string" &&
+        typeof item.description === "string" &&
         typeof item.link === "string" &&
-        typeof item.portada === "string"
+        typeof item.banner === "string"
       ) {
         return item;
       }
