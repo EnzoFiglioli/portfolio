@@ -1,6 +1,5 @@
 import React from "react";
 
-// Tipado de las props
 type Proyecto = {
   banner: string;
   title: string;
