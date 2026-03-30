@@ -33,5 +33,12 @@
     "link": "https://efx-studio.vercel.app/",
     "description": "Next.js, TypeScript",
     "banner": "https://i.imgur.com/uaMRypv.png"
+  },
+  {
+    "id":6,
+    "title":"ContractAPP",
+    "link":"https://contract-risk-scanner.vercel.app/",
+    "description":"Nest.js, React, Typescript, Docker, Python, FastAPI, Groq",
+    "banner":"https://i.imgur.com/6TKzAGM.png"
   }
 ]
