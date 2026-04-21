@@ -7,7 +7,7 @@ const Presentacion = () => {
         <div className="flex-1 flex justify-center items-center mt-10 lg:mt-0 order-1 lg:order-2">
           <div className="rounded-full w-60 h-60 lg:w-96 lg:h-96 overflow-hidden shadow-lg">
             <img
-              src="./principal.png"
+              src="https://avatars.githubusercontent.com/u/105600952?v=4"
               alt="yo"
               className="w-full h-full object-cover"
             />
