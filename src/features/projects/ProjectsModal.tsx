@@ -30,7 +30,6 @@ export const ProjectsModal = ({
 
   if (!isOpen) return null;
 
-  // Obtener las tecnologías disponibles
   const technologies = [
     "Todas",
     ...new Set(
@@ -40,7 +39,6 @@ export const ProjectsModal = ({
     ),
   ];
 
-  // Filtrar repositorios
   const filteredRepositories =
     selectedTechnology === "Todas"
       ? repositories

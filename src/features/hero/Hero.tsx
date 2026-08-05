@@ -6,15 +6,24 @@ export const Hero = () => {
     <section
       id="hero"
       aria-labelledby="hero-title"
-      className="min-h-screen flex items-center overflow-hidden py-24 sm:py-28"
+      className="
+        min-h-screen
+        flex
+        items-center
+        overflow-hidden
+        py-10
+        lg:py-0
+      "
     >
-      <div
-        className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-12 lg:grid-cols-2 lg:gap-24 items-center"
-      >
-        <HeroContent />
+      <div className="grid lg:grid-cols-2">
+  <div className="order-2 lg:order-1">
+    <HeroContent />
+  </div>
 
-        <HeroImage />
-      </div>
+  <div className="order-1 lg:order-2">
+    <HeroImage />
+  </div>
+</div>
     </section>
   );
 };

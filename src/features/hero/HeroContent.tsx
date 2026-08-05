@@ -9,9 +9,7 @@ export const HeroContent = () => {
     flex-col
     justify-center
     gap-8
-    max-w-2xl
-    py-20
-  "
+    max-w-2xl"
     >
       <p
         className="
