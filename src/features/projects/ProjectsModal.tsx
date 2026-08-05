@@ -3,16 +3,11 @@ import { useEffect, useState } from "react";
 import { getRepositories } from "@/services/github.service";
 import { GithubProjectCard } from "./GithubProjectCard";
 
+type Repository = Awaited<ReturnType<typeof getRepositories>>[number];
+
 interface ProjectsModalProps {
   isOpen: boolean;
   onClose: () => void;
-}
-
-interface Repository {
-  id: number;
-  name: string;
-  description: string | null;
-  language: string | null;
 }
 
 export const ProjectsModal = ({
@@ -35,7 +30,7 @@ export const ProjectsModal = ({
     ...new Set(
       repositories
         .map((repo) => repo.language)
-        .filter(Boolean)
+        .filter((language): language is string => language !== null)
     ),
   ];
 

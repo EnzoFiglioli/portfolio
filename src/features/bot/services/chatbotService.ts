@@ -23,14 +23,6 @@ export class ChatbotService {
     });
   }
 
-  private matchesExact(text: string, keywords: string[]): boolean {
-    const normalizedText = this.normalizeText(text);
-    return keywords.some(keyword => {
-      const normalizedKeyword = this.normalizeText(keyword);
-      return normalizedText === normalizedKeyword;
-    });
-  }
-
   public generateResponse(message: string): string {
     const lowerMsg = message.toLowerCase();
     
