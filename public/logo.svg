@@ -1,17 +1,38 @@
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 100 40"
-    fill="none"
->
-    <text
-        x="0"
-        y="30"
-        font-family="Inter, Geist, sans-serif"
-        font-size="32"
-        font-weight="800"
-        fill="currentColor"
-        letter-spacing="-2"
-    >
-        EF
-    </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a"/>
+      <stop offset="100%" style="stop-color:#111111"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Fondo con gradiente sutil -->
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  
+  <!-- Borde sutil -->
+  <rect width="64" height="64" rx="16" fill="none" stroke="white" stroke-width="0.5" opacity="0.15"/>
+  
+  <!-- Iniciales "EF" con trazos más finos y elegantes -->
+  <g transform="translate(32, 33)" filter="url(#glow)">
+    <!-- E -->
+    <line x1="-15" y1="-17" x2="-15" y2="17" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-15" y1="-17" x2="-5" y2="-17" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-15" y1="0" x2="-8" y2="0" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-15" y1="17" x2="-5" y2="17" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- F - ligeramente más delgada y con ángulo -->
+    <line x1="5" y1="-17" x2="5" y2="17" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <line x1="5" y1="-17" x2="16" y2="-17" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    <line x1="5" y1="0" x2="14" y2="0" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Detalle decorativo: punto pequeño entre las iniciales -->
+  <circle cx="32" cy="33" r="1.2" fill="white" opacity="0.3"/>
 </svg>
